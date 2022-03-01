@@ -1,0 +1,109 @@
+.parentContainer2{
+    background-color: #eb4b4b;
+    padding-bottom: 100px;
+}
+/* serachbox design */
+.searchBar{
+    color: black;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #71ddc6;
+    border-radius: 30px;
+    padding: 10px;
+}
+.search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 400px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-weight: 500;
+
+}
+.search_input::placeholder{
+    color: rgb(48, 48, 48);
+    font-weight: 600;
+}
+.search_icon{
+    background: rgb(53, 53, 53);;
+    color: #71ddc6;
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-top: -5px;
+    font-size: 22px;
+}
+.search_icon:hover{
+    color: #71ddc6;
+}
+.totalText{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+/* ranks details */
+.ranksDetails{
+    padding: 50px 0 80px;
+}
+.ranksDetails h4{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.ranksDetails img{
+    width: 100%;
+}
+.ranksDetails h6{
+    background: #71ddc6;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+/* pagination */
+.pagination{
+    width: fit-content;
+    margin: 0 auto;
+}
+.pagination .page-item{
+    font-weight: 600;
+    margin: 0 2px;
+
+}
+.pagination .page-link{
+    padding: 5px 15px;  
+    border: 0;
+    color: black;
+    background: #71ddc6;
+}
+
+@media (max-width: 786px){
+    .search_input{
+        width: 300px;
+    }
+}
+@media (max-width: 576px){
+    .search_input{
+        width: 250px;
+    }
+    .searchBar{
+        height: 40px;
+        padding: 5px 10px;
+    }
+    .search_icon{
+        width: 33px;
+        height: 33px;
+        margin-top: -1px;
+        font-size: 18px;
+    }
+}
